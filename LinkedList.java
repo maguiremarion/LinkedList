@@ -124,7 +124,6 @@ public class LinkedList {
     	show(llist);
     	
     	System.out.println("Ex 6. reverse() LinkedList:");
-    	llist.reverse(head);
-    	show(llist);
+    	System.out.println("Reversed list head located at "+ llist.reverse(head));
     }
 }
